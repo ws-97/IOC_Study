@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:p="http://www.springframework.org/schema/p"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+
+    <!--       Bean名称               Bean类名-->
+    <bean id="com.smart.Car" class="com.smart.Car"
+          p:brand="红旗ca72"
+          p:color="黑色"
+          p:maxSpeed="200"/>
+
+
+    <!--构造方法注入-->
+    <bean id="car1" class="com.smart.Car">
+        <constructor-arg type="java.lang.String">
+            <value>好事达</value>
+        </constructor-arg>
+        <constructor-arg type="int">
+            <value>20000</value>
+        </constructor-arg>
+    </bean>
+
+    <!--通过入参位置索引确定对应关系-->
+    <bean id="car2" class="com.smart.Car">
+        <constructor-arg index="0" value="asdad"/>
+        <constructor-arg index="1" value="中国一汽"/>
+        <constructor-arg index="2" value="20000"/>
+
+    </bean>
+
+
+    <!--入参类型和位置索引联合确定对应关系-->
+    <bean id="car3" class="com.smart.Car">
+        <constructor-arg index="0" value="ads" type="java.lang.String"/>
+        <constructor-arg index="1" value="ads" type="java.lang.String"/>
+        <constructor-arg index="2" value="1" type="int"/>
+    </bean>
+
+
+    <!--提供工厂方法的注入-->
+
+    <bean id="carFactory" class="com.smart.CarFactory"/>
+
+    <!--factory-bean指定-->
+    <bean id="car4" factory-bean="carFactory"
+          factory-method="createHongQiCar"/>
+
+
+    <!--字面值逐日字面值-->
+
+    <bean id="car" class="com.smart.Car">
+        <property name="maxSpeed" value="2000"/>
+
+        <property name="brand">
+            <!--<![CDATA[]]作用是让xml解析器将标签中的字符串当做普通文本对待-->
+            <value><![CDATA[红旗&CA72]]></value>
+        </property>
+    </bean>
+
+    <bean id="boss" class="com.smart.attr.Boss">
+        <property name="car">
+            <!--通过ref元素引用car bean建立起boss对car的依赖
+            ref可以通过一下3个属性引用容器中的其他Bean
+bean,local,parent
+ -->
+            <ref bean="car"/>
+        </property>
+    </bean>
+
+
+    <bean id="boss1" class="com.smart.attr.Boss">
+        <property name="favourite">
+            <list>
+                <value>看报</value>
+                <value>赛车</value>
+                <value>高尔夫</value>
+            </list>
+        </property>
+        <property name="favourite1">
+            <set>
+                <value>看报</value>
+                <value>赛车</value>
+                <value>高尔夫</value>
+            </set>
+        </property>
+        <property name="map">
+            <map>
+                <entry>
+                    <key>
+                        <value>am</value>
+                    </key>
+                    <value>会见苦荷</value>
+                </entry>
+                <entry>
+                    <key>
+                        <value>pm</value>
+                    </key>
+                    <value>公司内部会议</value>
+                </entry>
+                <entry>
+                    <key>
+                        <ref bean="car" />
+                    </key>
+                    <ref bean="car"/>
+                </entry>
+            </map>
+        </property>
+
+        <property name="mails">
+            <props>
+                <prop key="jobMail">john-office@smart.com</prop>
+                <prop key="lifeMail">john-life@smart.com</prop>
+            </props>
+        </property>
+
+        <property name="jobTime">
+            <map>
+                <entry>
+                    <key><value>会见客户</value></key>
+                    <value>124</value>
+                </entry>
+            </map>
+        </property>
+
+    </bean>
+
+
+
+    <!--prototype类型的Bean-->
+    <bean id="car" class="com.smart.Car"
+          p:brand="HongqiCA72"
+          p:price="2000"
+          scope="prototype"/>
+
+    <!--实施方法注入-->
+    <bean id="magicBoss" class="com.smart.MagicBoss">
+        <lookup-method name="getCar" bean="car"/>
+    </bean>
+
+
+
+    <!--使用boss2的MethodReplacer接口方法替换该Bean的getCa()方法-->
+    <bean id="boss1" class="com.smart.attr.Boss1">
+        <replaced-method name="getCar" replacer="boss2"/>
+    </bean>
+    <bean id="boss2" class="com.smart.attr.Boss2"/>
+暗搓搓错错错错错错错错错错错错       er'c
+
+
+
+    <!--以下两个bean的配置纯在大量重复信息-->
+    <bean id="car1" class="com.smart.Car"
+          p:brand="洪思琪ca72"
+          p:price="2000.00"
+          p:color="黑色"/>
+    <bean id="car2" class="com.smart.Car"
+          p:brand="洪思琪Ca72"
+          p:price="2000.00"
+          p:color="红色"/>
+
+    <bean id="abstractCar" class="com.smart.Car"
+          p:brand="红丝"
+          p:price="2000.0"
+          abstract="true"/>
+    <bean id="car1" class="com.smart.Car"
+
+          parent="abstractCar"
+          p:color="黑色"/>
+    <bean id="car2" class="com.smart.Car"
+          parent="abstractCar"
+          p:color="红色"/>
+
+
+
+    <bean id="car1" class="com.smart.fb.CarFactoryBean"
+          p:carInfo="hongsic72,200,20000.0"/>
+
+
+</beans>

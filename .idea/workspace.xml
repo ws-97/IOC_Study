@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4e704fc1-5796-476e-a492-5720b8f5e9b4" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build-spring-boot.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom-spring-boot.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/MoAttack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/smart/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/smart/CarFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/smart/MagicBoss.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/smart/NaiveWaiter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/smart/advice/BeforeAdviceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/smart/advice/ForumService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/smart/advice/GreetingAfterAdvice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/smart/advice/GreetingBeforeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/smart/advice/GreetingInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/smart/advice/NaiveWaiter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/smart/advice/TransactionManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/smart/advice/Waiter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/smart/advice/beans.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/smart/anno/Boss.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/smart/anno/SimpleTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/smart/anno/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/smart/anno/beans.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/smart/aspectj/anno/ForumService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/smart/aspectj/anno/NeedTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/smart/aspectj/anno/ToolTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/smart/aspectj/aspect/AspectJProxyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/smart/aspectj/aspect/PreGreetingAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/smart/attr/Boss.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/smart/attr/Boss1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/smart/attr/Boss2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/smart/beanfactory/BeanFactoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/smart/beanfactory/beans.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/smart/beanfactory/beans1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/smart/beanfactory/beans2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/smart/beanprop/ApplicationManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/smart/beanprop/SysConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/smart/beanprop/beans.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/smart/concept/ForumService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/smart/conf/Appconf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/smart/conf/DaoConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/smart/conf/JavaConfigTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/smart/conf/LogDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/smart/conf/LogonService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/smart/conf/ServiceConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/smart/fb/CarFactoryBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/smart/introduce/ControllablePerformanceMonitor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/smart/introduce/Monitorable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/smart/placeholder/jdbc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/smart/proxy/CglibProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/smart/proxy/ForumService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/smart/proxy/ForumServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/smart/proxy/ForumServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/smart/proxy/MethodPerformance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/smart/proxy/PerformanceHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/smart/proxy/PerformanceMonitor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/smart/proxy/TestForumService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/smart/reflect/ClassLoaderTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/smart/reflect/PrivateCar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/smart/reflect/PrivateCarReflect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/smart/reflect/ReflectTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/smart/resource/FileSourceExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/smart/resource/PatternResolverTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/smart/resource/file1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/beans.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/jdbc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/app.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/apache-tapestry.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/tapestry/RunWithJetty.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/tapestry/integration/pages/LoginTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/tapestry/integration/pages/NavigationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/tapestry/unit/pages/IndexTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/unit/ClassTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/PLACEHOLDER" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Tag Library Descriptor" />
+        <option value="Interface" />
+        <option value="spring-beans.schema" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2N2ZduEpSqya2LVPxOuzZYSDo1D" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "dart.analysis.tool.window.visible": "false",
+    "last_opened_file_path": "/Users/ws/Downloads/guide-idea-plugin-main 2/IOC_Study/src/main/java/com/smart/placeholder",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "ruby.rails.projectView.checked": "true",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "show.migrate.to.gradle.popup": "false",
+    "spring.configuration.checksum": "0ccda2a01a67045ec0f0d32f63d93da4"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/com/smart/placeholder" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/smart/anno" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/smart/beanfactory" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.ToolTest.tool">
+    <configuration name="BeforeAdviceTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="IOC_Study" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.smart.advice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.smart.advice" />
+      <option name="MAIN_CLASS_NAME" value="com.smart.advice.BeforeAdviceTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BeforeAdviceTest.before (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="IOC_Study" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.smart.advice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.smart.advice" />
+      <option name="MAIN_CLASS_NAME" value="com.smart.advice.BeforeAdviceTest" />
+      <option name="METHOD_NAME" value="before" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BeforeAdviceTest.before" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="IOC_Study" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.smart.advice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.smart.advice" />
+      <option name="MAIN_CLASS_NAME" value="com.smart.advice.BeforeAdviceTest" />
+      <option name="METHOD_NAME" value="before" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ToolTest.tool (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="IOC_Study" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.smart.aspectj.anno.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.smart.aspectj.anno" />
+      <option name="MAIN_CLASS_NAME" value="com.smart.aspectj.anno.ToolTest" />
+      <option name="METHOD_NAME" value="tool" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ToolTest.tool" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="IOC_Study" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.smart.aspectj.anno.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.smart.aspectj.anno" />
+      <option name="MAIN_CLASS_NAME" value="com.smart.aspectj.anno.ToolTest" />
+      <option name="METHOD_NAME" value="tool" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.ToolTest.tool" />
+        <item itemvalue="TestNG.ToolTest.tool (1)" />
+        <item itemvalue="TestNG.BeforeAdviceTest" />
+        <item itemvalue="TestNG.BeforeAdviceTest.before (1)" />
+        <item itemvalue="TestNG.BeforeAdviceTest.before" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4e704fc1-5796-476e-a492-5720b8f5e9b4" name="Changes" comment="" />
+      <created>1678864229884</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1678864229884</updated>
+      <workItem from="1678864231917" duration="5671000" />
+      <workItem from="1678869929399" duration="8666000" />
+      <workItem from="1678879939809" duration="4338000" />
+      <workItem from="1678929050356" duration="8322000" />
+      <workItem from="1678937623509" duration="299000" />
+      <workItem from="1678937934606" duration="31000" />
+      <workItem from="1678937968076" duration="23616000" />
+      <workItem from="1679015386666" duration="241000" />
+      <workItem from="1679015766021" duration="9724000" />
+      <workItem from="1679025518063" duration="2592000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/smart/introduce/ControllablePerformanceMonitor.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/smart/aspectj/anno/ToolTest.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
